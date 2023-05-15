@@ -1,0 +1,30 @@
+{
+  "name": "vr_rooms",
+  "version": "0.5.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050 --host",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "aframe": "^1.3.0",
+    "aframe-extras": "^6.1.1",
+    "nanoid": "^4.0.0",
+    "pinia": "^2.0.14",
+    "socket.io-client": "^4.5.1",
+    "vue": "^3.2.37"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.3",
+    "@types/aframe": "^1.2.0",
+    "@types/three": "^0.141.0",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "eslint": "^8.17.0",
+    "eslint-plugin-vue": "^9.1.1",
+    "prettier": "^2.6.2",
+    "sass": "^1.52.3",
+    "vite": "^2.9.12"
+  }
+}
